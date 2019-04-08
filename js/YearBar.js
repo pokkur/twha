@@ -77,7 +77,7 @@ function YearBar()
 	};
 	this.update = update_cursor;
 
-	year_bar.addEventListener('mousedown', e =>
+	year_bar.addEventListener('mousemove', e =>
 	{
 		let xpos = e.clientX;
 		if (xpos < _SIZE) {
